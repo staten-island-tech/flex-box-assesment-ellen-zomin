@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
     background-color: white;
 }
 
 .iceland{
     display: flex;
-    flex-direction: row;
-    height: 50rem;
+    flex-direction: column;
+    height: 1rem;
 }
