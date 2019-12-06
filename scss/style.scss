@@ -7,22 +7,31 @@
 
 body{
     background-color: white;
+    display: table;
+    height: 100rem;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100rem;
 }
 
 .iceland{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     height: 15rem;
 }
 
 .waterfall{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     height: 30rem;
 }
 
 .horse{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     height: 30rem;
+}
+.row{
+    display: table-row;
+    height: 50rem;
 }
