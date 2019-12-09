@@ -13,25 +13,23 @@ body{
     padding: 0rem;
     width: 100rem;
 }
-
-.iceland{
+.flex-child-image{
+    height: 45rem;
     display: flex;
-    flex-direction: row-reverse;
-    height: 15rem;
 }
-
-.waterfall{
-    display: flex;
-    flex-direction: row-reverse;
-    height: 30rem;
+.flex-parent{
+    display:flex;
+    justify-content: flex-start;
+    background-color:lightpink;
 }
-
-.horse{
-    display: flex;
-    flex-direction: row-reverse;
-    height: 30rem;
+.flex-child-paragraph{
+    display:flex;
+    justify-content:flex-end;
 }
-.row{
-    display: table-row;
-    height: 50rem;
+.empty{
+    background-color: white;
+    height: 10rem;
+}
+h1{
+    text-align: center;
 }
