@@ -29,6 +29,7 @@ body {
       -ms-flex-pack: start;
           justify-content: flex-start;
   background-color: lightpink;
+  width: 110rem;
 }
 
 .flex-child-paragraph {
@@ -43,9 +44,50 @@ body {
 .empty {
   background-color: white;
   height: 10rem;
+  width: 60rem;
 }
 
 h1 {
   text-align: center;
+}
+
+.flexparent {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 35rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.flex-child-food {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: lightskyblue;
+}
+
+.hotdog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
